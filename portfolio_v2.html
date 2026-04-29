@@ -1,0 +1,206 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>공윤지 | 포트폴리오</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Noto Sans KR', sans-serif; background-color: #f8fafc; }
+        .hero-gradient { background: linear-gradient(135deg, #002147 0%, #004080 100%); }
+        .card-shadow { box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); }
+        .section-title::after { content: ''; display: block; width: 50px; height: 3px; background: #002147; margin-top: 8px; }
+        .ministry-bg { background-color: #fdfbf7; }
+    </style>
+</head>
+<body class="text-slate-800">
+
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+            <div class="font-bold text-xl text-[#002147]">GONG YOON JI</div>
+            <div class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="#about" class="hover:text-blue-700 transition">소개</a>
+                <a href="#experience" class="hover:text-blue-700 transition">전문 경력</a>
+                <a href="#ministry" class="hover:text-blue-700 transition">사회적 사명</a>
+                <a href="#skills" class="hover:text-blue-700 transition">역량</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-gradient text-white py-24 px-4 text-center">
+        <div class="max-w-4xl mx-auto">
+            <p class="text-blue-200 font-medium mb-4 tracking-widest uppercase">Administrative Precision & Social Commitment</p>
+            <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">데이터로 증명하고<br>헌신으로 실천하는 행정 전문가</h1>
+            <p class="text-lg text-blue-100/80 mb-10 max-w-2xl mx-auto font-light leading-relaxed">
+                해양·수산 행정의 정확성을 기하며, 사회적 약자를 향한 신앙적 소명을 다하는 공윤지입니다.
+            </p>
+            <div class="flex justify-center gap-4">
+                <a href="#experience" class="bg-white text-[#002147] px-6 py-3 rounded-full font-semibold hover:bg-blue-50 transition">경력 확인하기</a>
+                <a href="#contact" class="border border-white/30 px-6 py-3 rounded-full font-semibold hover:bg-white/10 transition">문의하기</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-4 bg-white">
+        <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h2 class="text-3xl font-bold section-title mb-8">안녕하세요,<br>공윤지입니다.</h2>
+                <div class="space-y-4 text-slate-600 leading-relaxed">
+                    <p>
+                        수산학 전공을 바탕으로 현장에서 발생하는 복잡한 행정 문제를 데이터 기반으로 해결하는 데 전문성을 보유하고 있습니다. 국립수산물품질관리원에서의 실무를 통해 공공 행정의 책임감을 익혔습니다.
+                    </p>
+                    <p>
+                        동시에 대한예수교장로회(합동) 측 사역자로서, 부산 지역의 노숙인 및 독거노인 분들을 위한 전도와 예배 사역에 헌신하고 있습니다. 행정의 '정확함'과 사역의 '긍휼함'을 조화시키는 것이 저의 지향점입니다.
+                    </p>
+                </div>
+            </div>
+            <div class="bg-slate-100 rounded-2xl h-80 flex items-center justify-center text-slate-400">
+                <!-- 이미지 위치 -->
+                <div class="text-center">
+                    <svg class="w-16 h-16 mx-auto mb-2 opacity-20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+                    <p class="text-sm font-medium">프로필 이미지를 넣어주세요</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Experience -->
+    <section id="experience" class="py-20 px-4">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl font-bold section-title mb-12">Professional Experience</h2>
+            
+            <!-- Case Study Focus -->
+            <div class="bg-white p-8 rounded-2xl border border-slate-200 card-shadow mb-12">
+                <div class="flex items-center gap-3 mb-4">
+                    <span class="bg-blue-100 text-blue-800 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Key Achievement</span>
+                    <h3 class="text-xl font-bold">해상 자원 103톤 데이터 행정 오류 해결</h3>
+                </div>
+                <p class="text-slate-600 mb-6 leading-relaxed">
+                    소유권 분쟁 및 행정적 손실 위험이 있던 103톤 규모의 고부가가치 해상 자원에 대하여, 인보이스 및 수출 증명서 전수 대조를 통해 데이터 불일치 및 중복 수량을 확인하고 행정적 오류를 완벽히 해소하였습니다.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="text-sm bg-slate-100 px-3 py-1 rounded text-slate-500">데이터 대조</span>
+                    <span class="text-sm bg-slate-100 px-3 py-1 rounded text-slate-500">리스크 관리</span>
+                    <span class="text-sm bg-slate-100 px-3 py-1 rounded text-slate-500">행정 최적화</span>
+                </div>
+            </div>
+
+            <div class="space-y-8">
+                <!-- NFQS -->
+                <div class="relative pl-8 border-left border-l-2 border-slate-200 pb-8">
+                    <div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-blue-900"></div>
+                    <span class="text-sm font-bold text-blue-900">2023.04 - 현재</span>
+                    <h4 class="text-lg font-bold mt-1">국립수산물품질관리원 부산지원</h4>
+                    <p class="text-slate-500 text-sm mb-3">행정직원</p>
+                    <ul class="list-disc list-inside text-slate-600 space-y-1 text-sm">
+                        <li>수산물 품질 관리 및 수출입 관련 행정 지원</li>
+                        <li>데이터 검증 기반의 행정 절차 준수 및 효율화</li>
+                    </ul>
+                </div>
+
+                <!-- FIRA -->
+                <div class="relative pl-8 border-left border-l-2 border-slate-200">
+                    <div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-slate-300"></div>
+                    <span class="text-sm font-bold text-slate-400">2022.07 - 2023.03</span>
+                    <h4 class="text-lg font-bold mt-1">한국수산자원공단 (FIRA)</h4>
+                    <p class="text-slate-500 text-sm mb-3">기술계약직</p>
+                    <ul class="list-disc list-inside text-slate-600 space-y-1 text-sm">
+                        <li>수산 자원 관리 및 현장 행정 데이터 관리</li>
+                        <li>기술 업무 지원을 통한 사업 원활화</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ministry Section -->
+    <section id="ministry" class="py-20 px-4 ministry-bg">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl font-bold section-title mb-12">Social Mission</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded-xl border border-orange-100 card-shadow">
+                    <h3 class="font-bold text-lg mb-4 text-[#002147]">노숙인 사역</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        길 위의 이웃들에게 복음을 전하며, 매주 정기적인 예배와 교제를 통해 정서적·영적 지지 체계를 구축하고 있습니다.
+                    </p>
+                </div>
+                <div class="bg-white p-6 rounded-xl border border-orange-100 card-shadow">
+                    <h3 class="font-bold text-lg mb-4 text-[#002147]">독거노인 전도</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        소외된 어르신들을 직접 방문하여 예배를 드리고, 고립된 삶 속에 소망과 위로를 전달하는 사역을 지속하고 있습니다.
+                    </p>
+                </div>
+                <div class="bg-white p-6 rounded-xl border border-orange-100 card-shadow">
+                    <h3 class="font-bold text-lg mb-4 text-[#002147]">신앙의 정체성</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        대한예수교장로회(합동) 측 교회 소속으로서, 성경적 원리에 입각한 예배 중심의 삶과 이웃 사랑을 실천합니다.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills & Vision -->
+    <section id="skills" class="py-20 px-4 bg-white">
+        <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-16">
+            <div>
+                <h2 class="text-2xl font-bold mb-8">Technical Skills</h2>
+                <div class="space-y-6">
+                    <div>
+                        <div class="flex justify-between mb-2">
+                            <span class="text-sm font-medium">Administrative Execution (NCS)</span>
+                            <span class="text-sm text-slate-400">95%</span>
+                        </div>
+                        <div class="w-full bg-slate-100 h-2 rounded-full overflow-hidden">
+                            <div class="bg-[#002147] h-full" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex justify-between mb-2">
+                            <span class="text-sm font-medium">Data Verification & Analysis</span>
+                            <span class="text-sm text-slate-400">90%</span>
+                        </div>
+                        <div class="w-full bg-slate-100 h-2 rounded-full overflow-hidden">
+                            <div class="bg-[#002147] h-full" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex justify-between mb-2">
+                            <span class="text-sm font-medium">Financial Planning (AFPK Prep)</span>
+                            <span class="text-sm text-slate-400">75%</span>
+                        </div>
+                        <div class="w-full bg-slate-100 h-2 rounded-full overflow-hidden">
+                            <div class="bg-[#002147] h-full" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2 class="text-2xl font-bold mb-8">Future Vision</h2>
+                <p class="text-slate-600 italic leading-loose">
+                    "공적 영역의 행정가로서 신뢰를 구축하고, 사적 영역의 사역자로서 사랑을 실천하여, 우리 사회의 가장 낮은 곳까지 투명하고 따뜻한 가치가 닿게 하는 것이 저의 소명입니다."
+                </p>
+                <div class="mt-8 pt-8 border-t border-slate-100">
+                    <p class="text-sm font-bold text-slate-400 uppercase tracking-tighter mb-4">Location</p>
+                    <p class="font-medium">Busan, South Korea</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-slate-900 text-slate-400 py-12 px-4 text-center">
+        <p class="text-sm mb-4">© 2026 GONG YOON JI. All Rights Reserved.</p>
+        <div class="flex justify-center space-x-6">
+            <span class="text-xs">Based in Busan</span>
+            <span class="text-xs">Faith & Professionalism</span>
+        </div>
+    </footer>
+
+</body>
+</html>
